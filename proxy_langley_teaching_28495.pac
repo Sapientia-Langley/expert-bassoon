@@ -1,3 +1,3 @@
 function FindProxyForURL(url, host) {
-        return "SOCKS5 127.0.0.1.76:1080";
+        return "SOCKS5 100.82.108.29:1080";
 }
