@@ -1,9 +1,11 @@
 function FindProxyForURL(url, host) {
     var proxySites = [
+        "whatismyipaddress.com",
         "chatgpt.com",
         "youtube.com",
         "googlevideo.com",
-        "whatismyipaddress.com"
+        "soundcloud.com",
+        "lyrics-pesni.com"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
