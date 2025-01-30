@@ -21,7 +21,12 @@ function FindProxyForURL(url, host) {
         "discord.com",
         "discordapp.com",
         "discord.gg",
-        "discordapp.net"
+        "discordapp.net",
+        "162.159.128.233",
+        "162.159.138.232",
+        "162.159.137.232",
+        "162.159.135.232",
+        "162.159.136.232"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
