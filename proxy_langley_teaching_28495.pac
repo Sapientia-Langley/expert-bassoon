@@ -5,7 +5,8 @@ function FindProxyForURL(url, host) {
         "youtube.com",
         "googlevideo.com",
         "soundcloud.com",
-        "lyrics-pesni.com"
+        "lyrics-pesni.com",
+        "rutracker.org"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
