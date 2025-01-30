@@ -17,7 +17,10 @@ function FindProxyForURL(url, host) {
         "twitter.com",
         "t.co",
         "twimg.com",
-        "x.com"
+        "x.com",
+        "discord.com",
+        "discordapp.com",
+        "discord.gg"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
