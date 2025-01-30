@@ -7,7 +7,17 @@ function FindProxyForURL(url, host) {
         "soundcloud.com",
         "lyrics-pesni.com",
         "rutracker.org",
-        "rockstargames.com"
+        "rockstargames.com",
+        "facebook.com",
+        "fb.com",
+        "messenger.com",
+        "facebook.net",
+        "instagram.com",
+        "cdninstagram.com",
+        "twitter.com",
+        "t.co",
+        "twimg.com",
+        "x.com"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
