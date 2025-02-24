@@ -2,8 +2,15 @@ function FindProxyForURL(url, host) {
     var proxySites = [
         "whatismyipaddress.com",
         "chatgpt.com",
+        "grok.com",
         "youtube.com",
         "googlevideo.com",
+        "ytimg.com",
+        'youtu.be",
+        "ggpht.com",
+        "googleapis.com",
+        "googleusercontent.com",
+        "gstatic.com",
         "soundcloud.com",
         "lyrics-pesni.com",
         "rutracker.org",
@@ -26,10 +33,7 @@ function FindProxyForURL(url, host) {
         "162.159.138.232",
         "162.159.137.232",
         "162.159.135.232",
-        "162.159.136.232",
-        "grok.com",
-        "google.com",
-        "ytimg.com"
+        "162.159.136.232"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
