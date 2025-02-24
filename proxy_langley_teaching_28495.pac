@@ -28,7 +28,8 @@ function FindProxyForURL(url, host) {
         "162.159.135.232",
         "162.159.136.232",
         "grok.com",
-        "google.com"
+        "google.com",
+        "ytimg.com"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
