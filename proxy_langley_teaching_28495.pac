@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
         "youtube.com",
         "googlevideo.com",
         "ytimg.com",
-        'youtu.be",
+        "youtu.be",
         "ggpht.com",
         "googleapis.com",
         "googleusercontent.com",
