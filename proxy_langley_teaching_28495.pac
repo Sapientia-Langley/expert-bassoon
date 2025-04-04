@@ -38,7 +38,8 @@ function FindProxyForURL(url, host) {
         "microsoft.com",
         "proton.me",
         "digitalocean.com",
-        "getoutline.org"
+        "getoutline.org",
+        "windscribe.com"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
