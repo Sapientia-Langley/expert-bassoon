@@ -36,7 +36,8 @@ function FindProxyForURL(url, host) {
         "162.159.136.232",
         "x.ai",
         "microsoft.com",
-        "proton.me"
+        "proton.me",
+        "digitalocean.com"
     ];
     for (var i = 0; i < proxySites.length; i++) {
         if (shExpMatch(host, "*" + proxySites[i])) {
