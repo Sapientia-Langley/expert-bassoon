@@ -1,7 +1,6 @@
 function FindProxyForURL(url, host) {
     var proxySites = [
         "whatismyipaddress.com",
-        "chatgpt.com",
         "grok.com",
         "youtube.com",
         "googlevideo.com",
