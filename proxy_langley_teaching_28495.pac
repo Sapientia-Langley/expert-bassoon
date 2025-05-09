@@ -24,11 +24,11 @@ function FindProxyForURL(url, host) {
         "t.co",
         "twimg.com",
         "x.com",
-        "discord.com",
+
         "discordapp.com",
         "discord.gg",
         "discordapp.net",
-        "discord.media",
+
         "x.ai",
         "microsoft.com",
         "proton.me",
